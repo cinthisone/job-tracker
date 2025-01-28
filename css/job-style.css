@@ -1,0 +1,153 @@
+/* General Styling */
+#job-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Form Styling */
+#job-form {
+    margin-top: 15px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    display: none;
+}
+
+#job-title, #job-company, #job-url, #job-answer, #job-search {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#job-answer {
+    height: 150px;
+}
+
+/* Buttons */
+#job-add-btn, #job-submit {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+#job-add-btn {
+    background: #0073e6;
+    color: #fff;
+}
+
+#job-add-btn:hover {
+    background: #005bb5;
+}
+
+#job-submit {
+    background: #28a745;
+    color: #fff;
+    margin-top: 10px;
+}
+
+#job-submit:hover {
+    background: #218838;
+}
+
+/* Search Results */
+#job-results {
+    margin-top: 15px;
+}
+
+.job-result {
+    padding: 10px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.job-result:hover {
+    transform: scale(1.02);
+}
+
+.job-result strong {
+    font-size: 18px;
+    color: #333;
+}
+
+.job-result p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Delete Button */
+.job-delete {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 5px;
+    transition: background 0.3s ease;
+}
+
+.job-delete:hover {
+    background: #cc0000;
+}
+
+/* Read More Button (If Needed in the Future) */
+.read-more-btn {
+    background: #0073aa;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.read-more-btn:hover {
+    background: #005177;
+}
+
+/* Job Description and Cover Letter */
+.job-description, .job-cover-letter {
+    margin-bottom: 10px;
+}
+
+/* Hidden Text for Truncation (If Used) */
+.short-text {
+    display: inline;
+}
+
+.full-text {
+    display: none;
+}
+
+
+#job-form {
+    margin-top: 15px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    display: none; /* ✅ The form starts hidden but is shown when clicked */
+}
+
+#job-form {
+    margin-top: 15px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    display: none; /* ✅ Ensures the form starts hidden but toggles when clicked */
+}

@@ -1,4 +1,4 @@
-# Q&A Storage - WordPress Plugin
+# Job Tracker - WordPress Plugin
 
 ### A simple WordPress plugin to store, search, and manage job application questions & answers.
 

@@ -1,4 +1,4 @@
-=== Q&A Storage ===
+=== Job Tracker ===
 Contributors: cinthisone
 Tags: job applications, q&a, search, ajax, wordpress plugin
 Requires at least: 5.6
@@ -8,7 +8,7 @@ License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
-Q&A Storage is a WordPress plugin that allows users to **store** and **search** job application questions and answers quickly. 
+Job Tracker is a WordPress plugin that allows users to **store** and **search** job application questions and answers quickly. 
 
 ### **Features**
 - ✅ Custom post type for job questions
@@ -20,7 +20,7 @@ Q&A Storage is a WordPress plugin that allows users to **store** and **search** 
 
 == Installation ==
 1. Download the plugin and upload it to `/wp-content/plugins/`
-2. Activate **Q&A Storage** from the WordPress **Plugins** menu.
+2. Activate **Job Tracker** from the WordPress **Plugins** menu.
 3. Use the shortcode `[job_question_search]` to display the search & form.
 
 == Usage ==
@@ -31,7 +31,7 @@ This will show:
   - **Title**
   - **Company (Optional)**
   - **URL (Optional)**
-  - **Answer (WYSIWYG Editor)**
+  - **Job Description (WYSIWYG Editor)**
 - Each question has a **delete button** (for users with permission).
 
 == Changelog ==
